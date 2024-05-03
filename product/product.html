@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" href="product-style.css">
+</head>
+
+<body>
+
+    <div class="product-container">
+        <div class="product-image"><img src="./img/imgherbal.jpg" alt="img"></div>
+
+        <div class="product-details">
+            <h1 class="product-company">Afamia</h1>
+            <h2 class="product-name">vitamins</h2>
+            <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae laboriosam
+                consequatur minus perferendis magni accusamus, dolores, modi sed perspiciatis eveniet officiis sequi
+                neque voluptas omnis enim repellat rerum labore explicabo.</p>
+            <p class="product-price">$1000</p>
+
+            <div class="quantity-control">
+                <button class="quantity-btn decrease" onclick="changeQuantity(-1)">-</button>
+                <span class="quantity">0</span>
+                <button class="quantity-btn increase" onclick="changeQuantity(1)">+</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="product-script.js"></script>
+</body>
+
+</html>

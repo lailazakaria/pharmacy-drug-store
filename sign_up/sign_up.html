@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign_up.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Sign_up</title>
+</head>
+
+<body>
+    <main>
+        <h1>SIGN UP</h1>
+        <form name="myForm" action="" onsubmit="return validateForm()">
+            <div>
+                <label for="user">User Name</label>
+                <br>
+                <input type="text" id="user" name="username" placeholder="Enter your name" />
+            </div>
+            <div>
+                <label for="number">Number Phone</label>
+                <br>
+                <input type="text" id="number" name="number" placeholder="Ex: +963957364204" />
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" />
+
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" />
+
+            </div>
+            <div>
+                <!-- <input type="checkbox" id="checkbox1" name="checkbox1" value="agree" /> -->
+                <label for="checkbox1">Agree to Terms and Conditions</label>
+            </div>
+            <button type="submit" onsubmit="return validateForm()">Sign Up</button>
+            <div class="connect_us">
+                <h6>Or Connect with</h6>
+                <div class="icon_row">
+                    <i class='bx bxl-facebook-circle'></i>
+                    <i class='bx bxl-google-plus-circle'></i>
+                    <i class='bx bxl-twitter'></i>
+                </div>
+            </div>
+            <footer>Do you have an account? <span><a href="../sign_in/sign_in.html"> Sign In</a></span></footer>
+        </form>
+    </main>
+    <script src="sign_up.js"></script>
+</body>
+
+</html>

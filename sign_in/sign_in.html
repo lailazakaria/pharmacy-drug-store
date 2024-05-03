@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign_in.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Sign_in</title>
+</head>
+
+<body>
+    <main>
+        <h1>SIGN IN</h1>
+        <form action="" onsubmit="return validateForm()">
+            <div>
+                <label for="email">email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" />
+
+            </div>
+            <div>
+                <label for="password">password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" />
+
+            </div>
+            <h5>Forget Password?</h5>
+            <button type="submit" onsubmit="return validateForm()">Sign in</button>
+            <div class="connect_us">
+                <h6>Or Connect with</h6>
+                <div class="icon_row">
+                    <i class='bx bxl-facebook-circle'></i>
+                    <i class='bx bxl-google-plus-circle'></i>
+                    <i class='bx bxl-twitter'></i>
+                </div>
+            </div>
+            <footer>Don't have an account ?<span> <a href="../sign_up/sign_up.html">Sign Up</a></span></footer>
+        </form>
+    </main>
+    <script src="sign_in.js"></script>
+</body>
+
+</html>
