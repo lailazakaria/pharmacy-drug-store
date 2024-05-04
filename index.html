@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy Drug Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css" />
+    <link rel="stylesheet" href="assest/css/style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            AI<span>PH</span>
+        </div>
+        <nav class="headbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Company</a></li>
+                <span class="dropdown">
+                    <span class="bx bx-caret-down"></span>
+                    <div class="dropdown-content">
+                        <a href="products.html">Afamia</a>
+                        <a href="products.html">Afamia</a>
+                        <a href="products.html">Afamia</a>
+                    </div>
+                </span>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <i class="bx bx-cart"></i>
+            <i class="bx bx-user-circle"></i>
+        </div>
+    </header>
+    <!-- home -->
+    <div class="home-page">
+        <div class="container">
+            <div class="left-section">
+                <h1>Pharmacy Drug Store</h1>
+                <p class="description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde ipsa delectus qui inventore,
+                    praesentium et repellendus est cumque, nulla id repellat quas nam, asperiores ipsum quia iure sequi
+                    distinctio odit.
+                </p>
+                <button>Shop Now</button>
+            </div>
+        </div>
+    </div>
+    <!-- recently added products  -->
+    <div class="recently-products">
+        <div class="latest-news">
+            <div class="title">
+                <div class="border-h1">
+                    <h1>Recently Products</h1>
+                </div>
+            </div>
+        </div>
+        <div class="cards-container container">
+            <div class="card">
+                <a href="product.html" class="card-link">
+                    <img src="assest/img/imgfood.jpg" alt="Image" class="card-image">
+                    <div class="card-content">
+                        <h3 class="company-name">afamia<span>,vitamins</span></h3>
+                        <p class="price">$1000</p>
+                    </div>
+                </a>
+                <div class="quantity-control">
+                    <button class="decrease" onclick="changeQuantity(this, -1)">-</button>
+                    <span class="quantity">0</span>
+                    <button class="increase" onclick="changeQuantity(this, 1)">+</button>
+                </div>
+            </div>
+            <div class="card">
+                <a href="product.html" class="card-link">
+                    <img src="assest/img/imgfood.jpg" alt="Image" class="card-image">
+                    <div class="card-content">
+                        <h3 class="company-name">afamia<span>,vitamins</span></h3>
+                        <p class="price">$1000</p>
+                    </div>
+                </a>
+                <div class="quantity-control">
+                    <button class="decrease" onclick="changeQuantity(this, -1)">-</button>
+                    <span class="quantity">0</span>
+                    <button class="increase" onclick="changeQuantity(this, 1)">+</button>
+                </div>
+            </div>
+            <div class="card">
+                <a href="product.html" class="card-link">
+                    <img src="assest/img/imgskin.webp" alt="Image" class="card-image">
+                    <div class="card-content">
+                        <h3 class="company-name">afamia<span>,vitamins</span></h3>
+                        <p class="price">$1000</p>
+                    </div>
+                </a>
+                <div class="quantity-control">
+                    <button class="decrease" onclick="changeQuantity(this, -1)">-</button>
+                    <span class="quantity">0</span>
+                    <button class="increase" onclick="changeQuantity(this, 1)">+</button>
+                </div>
+            </div>
+            <div class="card">
+                <a href="product.html" class="card-link">
+                    <img src="assest/img/imgmother.jpg" alt="Image" class="card-image">
+                    <div class="card-content">
+                        <h3 class="company-name">afamia<span>,vitamins</span></h3>
+                        <p class="price">$1000</p>
+                    </div>
+                </a>
+                <div class="quantity-control">
+                    <button class="decrease" onclick="changeQuantity(this, -1)">-</button>
+                    <span class="quantity">0</span>
+                    <button class="increase" onclick="changeQuantity(this, 1)">+</button>
+                </div>
+            </div>
+            <div class="card">
+                <a href="product.html" class="card-link">
+                    <img src="assest/img/imgnail.jpg" alt="Image" class="card-image">
+                    <div class="card-content">
+                        <h3 class="company-name">afamia<span>,vitamins</span></h3>
+                        <p class="price">$1000</p>
+                    </div>
+                </a>
+                <div class="quantity-control">
+                    <button class="decrease" onclick="changeQuantity(this, -1)">-</button>
+                    <span class="quantity">0</span>
+                    <button class="increase" onclick="changeQuantity(this, 1)">+</button>
+                </div>
+            </div>
+            <div class="card">
+                <a href="product.html" class="card-link">
+                    <img src="assest/img/imgfood.jpg" alt="Image" class="card-image">
+                    <div class="card-content">
+                        <h3 class="company-name">afamia<span>,vitamins</span></h3>
+                        <p class="price">$1000</p>
+                    </div>
+                </a>
+                <div class="quantity-control">
+                    <button class="decrease" onclick="changeQuantity(this, -1)">-</button>
+                    <span class="quantity">0</span>
+                    <button class="increase" onclick="changeQuantity(this, 1)">+</button>
+                </div>
+            </div>
+            <div class="card">
+                <a href="product.html" class="card-link">
+                    <img src="assest/img/imgfood.jpg" alt="Image" class="card-image">
+                    <div class="card-content">
+                        <h3 class="company-name">afamia<span>,vitamins</span></h3>
+                        <p class="price">$1000</p>
+                    </div>
+                </a>
+                <div class="quantity-control">
+                    <button class="decrease" onclick="changeQuantity(this, -1)">-</button>
+                    <span class="quantity">0</span>
+                    <button class="increase" onclick="changeQuantity(this, 1)">+</button>
+                </div>
+            </div>
+            <div class="card">
+                <a href="product.html" class="card-link">
+                    <img src="assest/img/imgfood.jpg" alt="Image" class="card-image">
+                    <div class="card-content">
+                        <h3 class="company-name">afamia<span>,vitamins</span></h3>
+                        <p class="price">$1000</p>
+                    </div>
+                </a>
+                <div class="quantity-control">
+                    <button class="decrease" onclick="changeQuantity(this, -1)">-</button>
+                    <span class="quantity">0</span>
+                    <button class="increase" onclick="changeQuantity(this, 1)">+</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="company">
+            <div class="latest-news">
+                <div class="title">
+                    <div class="border-h1">
+                        <h1>Company Products</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assest/js/main.js"></script>
+</body>
+
+</html>
