@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Company Products</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css" />
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="assest/css/style.css">
 </head>
 
@@ -18,25 +18,33 @@
         <nav class="headbar">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">Company</a></li>
-                <span class="dropdown">
-                    <span class="bx bx-caret-down"></span>
-                    <div class="dropdown-content">
-                        <a href="products.html">Aphamia</a>
-                        <a href="products.html">Aphamia</a>
-                        <a href="products.html">Aphamia</a>
-                    </div>
-                </span>
+                <li><a href="#">Company</a>
+                    <span class="dropdown">
+                        <span class="bx bx-caret-down cart-dwon"></span>
+                        <div class="dropdown-content">
+                            <a href="products.html">Aphamia</a>
+                            <a href="products.html">Aphamia</a>
+                            <a href="products.html">Aphamia</a>
+                        </div>
+                    </span>
+                </li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <div class="icons">
-            <i class="bx bx-cart"></i>
-            <i class="bx bx-user-circle"></i>
+            <a href="cart.html"> <i class="bx bx-cart"></i></a>
+            <a href="profile.html"> <i class="bx bx-user-circle"></i></a>
         </div>
+        <i class="bx bx-list-ul menu-icon"></i>
     </header>
+    <div class="buttons-category">
+        <button class="btn btn-info">All</button>
+        <button class="btn btn-info">Vitamins</button>
+        <button class="btn btn-info">Heat diseases</button>
+    </div>
     <div class="cards-container containerr">
+
         <div class="card">
             <a href="product.html" class="card-link">
                 <img src="assest/img/imgfood.jpg" alt="Image" class="card-image">
