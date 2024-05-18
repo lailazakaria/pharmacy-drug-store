@@ -65,7 +65,7 @@ header ul li a:hover {
   color: var(--less-dark-blue);
 }
 .header .icons i {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-left: 1rem;
   color: var(--less-dark-blue);
 }
@@ -97,7 +97,7 @@ header ul li a:hover {
 }
 .menu-icon {
   display: none;
-  color: var(--blue);
+  color: var(--less-dark-blue);
   font-size: 2rem;
 }
 .header {
@@ -127,6 +127,9 @@ header ul li a:hover {
   .headbar ul li {
     padding: 1.5rem 4rem;
   }
+  .headbar ul li a {
+    color: var(--blue);
+  }
   .menu-icon {
     display: block;
     cursor: pointer;
@@ -137,6 +140,9 @@ header ul li a:hover {
   }
   .dropdown-content a:hover {
     color: var(--dark-blue);
+  }
+  .icons {
+    display: flex;
   }
 }
 /* .cart-dwon {

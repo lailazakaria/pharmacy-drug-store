@@ -10,6 +10,16 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem 1rem;
 }
+@media (max-width: 747px) {
+  .services .containerr {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 576px) {
+  .services .containerr {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 
 .services .box {
   background-color: white;

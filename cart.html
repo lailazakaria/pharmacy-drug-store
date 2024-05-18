@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cart</title>
-    <link rel="stylesheet" href="assest/css/style.css">
-    <link rel="stylesheet" href="assest/css/product-style.css">
-    <link rel="stylesheet" href="assest/css/cart.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assest/css/style.css">
+    <link rel="stylesheet" href="assest/css/cart.css">
+
 </head>
 
 <body>
@@ -19,66 +20,120 @@
         <nav class="headbar">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">Company</a></li>
-                <span class="dropdown">
-                    <span class="bx bx-caret-down"></span>
-                    <div class="dropdown-content">
-                        <a href="products.html">Afamia</a>
-                        <a href="products.html">Afamia</a>
-                        <a href="products.html">Afamia</a>
-                    </div>
-                </span>
+                <li><a href="#">Company</a>
+                    <span class="dropdown">
+                        <span class="bx bx-caret-down cart-dwon"></span>
+                        <div class="dropdown-content">
+                            <a href="products.html">Aphamia</a>
+                            <a href="products.html">Aphamia</a>
+                            <a href="products.html">Aphamia</a>
+                        </div>
+                    </span>
+                </li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="service.html">service</a></li>
+                <li><a href="service.html">Service</a></li>
             </ul>
         </nav>
         <div class="icons">
-            <i class="bx bx-cart"></i>
-            <i class="bx bx-user-circle"></i>
+            <a href="cart.html"> <i class="bx bx-cart"></i></a>
+            <a href="profile.html"> <i class="bx bx-user-circle"></i></a>
+            <i class="bx bx-list-ul menu-icon"></i>
         </div>
+
     </header>
 
-    <div class="products-cart">
-        <div class="product-container">
-            <div class="product-image"><img src="assest/img/imgskin.webp" alt="img"></div>
-
-            <div class="product-details">
-                <h1 class="product-company">Aphamia</h1>
-                <h2 class="product-name">vitamins</h2>
-                <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-                    laboriosam
-                    consequatur minus perferendis magni accusamus, dolores, modi sed perspiciatis eveniet officiis sequi
-                    neque voluptas omnis enim repellat rerum labore explicabo.</p>
-                <p class="product-price">$1000</p>
-
-                <div class="quantity-control">
-                    <button class="quantity-btn decrease" onclick="changeQuantity(-1)">-</button>
-                    <span class="quantity">0</span>
-                    <button class="quantity-btn increase" onclick="changeQuantity(1)">+</button>
+    <div class="cards-container containerr">
+        <div class="card">
+            <a href="product.html" class="card-link">
+                <img src="assest/img/imgfood.jpg" alt="Image" class="card-image">
+                <div class="card-content">
+                    <h3 class="company-name">Aphamia<span>,vitamins</span></h3>
+                    <p class="price">$1000</p>
                 </div>
+            </a>
+            <div class="quantity-control">
+                <button class="decrease" onclick="changeQuantity(this, -1)">-</button>
+                <span class="quantity">0</span>
+                <button class="increase" onclick="changeQuantity(this, 1)">+</button>
             </div>
         </div>
-        <div class="product-container">
-            <div class="product-image"><img src="assest/img/imgskin.webp" alt="img"></div>
-
-            <div class="product-details">
-                <h1 class="product-company">Aphamia</h1>
-                <h2 class="product-name">vitamins</h2>
-                <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-                    laboriosam
-                    consequatur minus perferendis magni accusamus, dolores, modi sed perspiciatis eveniet officiis sequi
-                    neque voluptas omnis enim repellat rerum labore explicabo.</p>
-                <p class="product-price">$1000</p>
-
-                <div class="quantity-control">
-                    <button class="quantity-btn decrease" onclick="changeQuantity(-1)">-</button>
-                    <span class="quantity">0</span>
-                    <button class="quantity-btn increase" onclick="changeQuantity(1)">+</button>
+        <div class="card">
+            <a href="product.html" class="card-link">
+                <img src="assest/img/imgfood.jpg" alt="Image" class="card-image">
+                <div class="card-content">
+                    <h3 class="company-name">Aphamia<span>,vitamins</span></h3>
+                    <p class="price">$1000</p>
                 </div>
+            </a>
+            <div class="quantity-control">
+                <button class="decrease" onclick="changeQuantity(this, -1)">-</button>
+                <span class="quantity">0</span>
+                <button class="increase" onclick="changeQuantity(this, 1)">+</button>
             </div>
         </div>
+
+
+        <div class="card">
+            <a href="product.html" class="card-link">
+                <img src="assest/img/imgnail.jpg" alt="Image" class="card-image">
+                <div class="card-content">
+                    <h3 class="company-name">Aphamia<span>,vitamins</span></h3>
+                    <p class="price">$1000</p>
+                </div>
+            </a>
+            <div class="quantity-control">
+                <button class="decrease" onclick="changeQuantity(this, -1)">-</button>
+                <span class="quantity">0</span>
+                <button class="increase" onclick="changeQuantity(this, 1)">+</button>
+            </div>
+        </div>
+        <div class="card">
+            <a href="product.html" class="card-link">
+                <img src="assest/img/imgfood.jpg" alt="Image" class="card-image">
+                <div class="card-content">
+                    <h3 class="company-name">Aphamia<span>,vitamins</span></h3>
+                    <p class="price">$1000</p>
+                </div>
+            </a>
+            <div class="quantity-control">
+                <button class="decrease" onclick="changeQuantity(this, -1)">-</button>
+                <span class="quantity">0</span>
+                <button class="increase" onclick="changeQuantity(this, 1)">+</button>
+            </div>
+        </div>
+        <div class="card">
+            <a href="product.html" class="card-link">
+                <img src="assest/img/imgfood.jpg" alt="Image" class="card-image">
+                <div class="card-content">
+                    <h3 class="company-name">Aphamia<span>,vitamins</span></h3>
+                    <p class="price">$1000</p>
+                </div>
+            </a>
+            <div class="quantity-control">
+                <button class="decrease" onclick="changeQuantity(this, -1)">-</button>
+                <span class="quantity">0</span>
+                <button class="increase" onclick="changeQuantity(this, 1)">+</button>
+            </div>
+        </div>
+        <div class="card">
+            <a href="product.html" class="card-link">
+                <img src="assest/img/imgfood.jpg" alt="Image" class="card-image">
+                <div class="card-content">
+                    <h3 class="company-name">Aphamia<span>,vitamins</span></h3>
+                    <p class="price">$1000</p>
+                </div>
+            </a>
+            <div class="quantity-control">
+                <button class="decrease" onclick="changeQuantity(this, -1)">-</button>
+                <span class="quantity">0</span>
+                <button class="increase" onclick="changeQuantity(this, 1)">+</button>
+            </div>
+        </div>
+
     </div>
-    <script src="assest/js/product-script.js"></script>
+    <div class="btn">
+        <button type="submit" class="button">Send</button>
+    </div>
     <script src="assest/js/main.js"></script>
 </body>
 

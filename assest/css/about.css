@@ -1,13 +1,23 @@
 .team {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   position: relative;
 }
 
-.team .container {
+.team .containerr {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem 5rem;
+}
+@media (max-width: 747px) {
+  .team .containerr {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 576px) {
+  .team .containerr {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .team .box {
